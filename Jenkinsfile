@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "adridelagado/python-app:latest"
+        DOCKER_IMAGE = "adridelegado/python-app:latest"
     }
 
     stages {
